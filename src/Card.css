@@ -1,0 +1,24 @@
+.card {
+  width: 38vh;
+  height: 48vh
+}
+
+.card-info {
+  height: 10vh;
+  width: 33.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Nova Square', cursive;
+}
+
+.card-info h2 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.card-info p {
+  margin: 5px 0;
+}
