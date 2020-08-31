@@ -1,24 +1,27 @@
 .card {
   width: 38vh;
-  height: 48vh
+  height: 48vh;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .card-info {
-  height: 10vh;
-  width: 33.5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
-  font-family: 'Nova Square', cursive;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.card-info h2,
+.card-info p {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-info h2 {
-  margin-top: 15px;
-  margin-bottom: 5px;
-  overflow: hidden;
+  margin-top: 12px;
+  margin-bottom: 10px;
 }
 
 .card-info p {
-  margin: 5px 0;
+  margin: 0;
 }

@@ -11,7 +11,7 @@ export default [
   },
   {
     id: 3,
-    name: 'Gilberto Clark GAZUUUUUUUUUUU',
+    name: 'Gilberto Clark',
     email: 'gilberto@home.com'
   },
   {
@@ -158,5 +158,20 @@ export default [
     id: 32,
     name: 'Geoffrey Hamilton',
     email: 'geoffrey@home.com'
+  },
+  {
+    id: 33,
+    name: 'Toolongnamefortestpurposesonly',
+    email: 'Toolongnamefortestpurposesonly@home.com yaaaaaaaauzaaaaaaaaaaaaaaa'
+  },
+  {
+    id: 34,
+    name: ' ',
+    email: '(intentionally nameless)',
+  },
+  {
+    id: 35,
+    name: '-',
+    email: '-',
   }
 ]
