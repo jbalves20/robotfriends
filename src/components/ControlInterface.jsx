@@ -1,6 +1,4 @@
 import React from 'react';
-import Card from './Card';
-import ReactDOM from 'react-dom';
 import './ControlInterface.css';
 
 class ControlInterface extends React.Component {
@@ -9,20 +7,17 @@ class ControlInterface extends React.Component {
     this.state = { name: '', email: '' };
 
     this.handleChange = this.handleChange.bind(this);
+    this.insertRobot = this.insertRobot.bind(this);
   }
 
-  insertTest() {
-    ReactDOM.render(
-      <Card key='0' name={ this.state.name || ' ' } email={ this.state.email } />,
-      document.getElementById('card-set')
-    )
-  };
+  insertRobot() {
+    this.props.addRobot(this.state);
+  }
 
   handleChange(event) {
     const s = { ...this.state };
     s[event.target.name] = event.target.value;
     this.setState(s);
-    // console.log(s[event.target.name], this.state)
   }
 
   render () {
@@ -42,8 +37,8 @@ class ControlInterface extends React.Component {
           </div>
         </div>
 
-        <div className="form-buttons" className="tc mt2 mb2">
-          <button className="button white bg-black" onClick={ e => this.insertTest(e) }>Generate</button>
+        <div className="form-buttons tc mt2 mb2">
+          <button className="button white bg-black" onClick={ this.insertRobot }>Generate</button>
         </div>
       </div>
     );
