@@ -162,7 +162,7 @@ export default [
   {
     id: 33,
     name: 'Toolongnamefortestpurposesonly',
-    email: 'Toolongnamefortestpurposesonly@home.com yaaaaaaaauzaaaaaaaaaaaaaaa'
+    email: 'Toolongnamefortestpurposesonly@home.com'
   },
   {
     id: 34,

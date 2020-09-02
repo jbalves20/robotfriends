@@ -1,0 +1,24 @@
+.control {
+  font-family: 'Nova Square', sans-serif;
+}
+
+.form-group {
+  display: block;
+}
+
+.form-group label {
+  margin: 0 10px
+}
+
+.form-group input {
+  border: none;
+  padding: 5px;
+  margin-right: 10px
+}
+
+.button {
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  padding: 10px 40px;
+}
